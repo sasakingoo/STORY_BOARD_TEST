@@ -97,11 +97,10 @@
 		FABA319E1D1509B7007B415B /* StoryBoardTest */ = {
 			isa = PBXGroup;
 			children = (
+				FABA31CF1D150AE4007B415B /* storyboard */,
+				FABA31CD1D150AB5007B415B /* Classes */,
 				FABA319F1D1509B7007B415B /* AppDelegate.swift */,
-				FABA31A11D1509B7007B415B /* ViewController.swift */,
-				FABA31A31D1509B7007B415B /* Main.storyboard */,
 				FABA31A61D1509B7007B415B /* Assets.xcassets */,
-				FABA31A81D1509B7007B415B /* LaunchScreen.storyboard */,
 				FABA31AB1D1509B7007B415B /* Info.plist */,
 			);
 			path = StoryBoardTest;
@@ -123,6 +122,31 @@
 				FABA31C11D1509B7007B415B /* Info.plist */,
 			);
 			path = StoryBoardTestUITests;
+			sourceTree = "<group>";
+		};
+		FABA31CD1D150AB5007B415B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FABA31CE1D150ACA007B415B /* UI */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FABA31CE1D150ACA007B415B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FABA31A11D1509B7007B415B /* ViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FABA31CF1D150AE4007B415B /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FABA31A81D1509B7007B415B /* LaunchScreen.storyboard */,
+				FABA31A31D1509B7007B415B /* Main.storyboard */,
+			);
+			name = storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
